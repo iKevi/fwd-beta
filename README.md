@@ -1,4 +1,4 @@
-# Takuya's Homepage
+Inspired by 
 
 [https://www.craftz.dog/](https://www.craftz.dog/)
 
