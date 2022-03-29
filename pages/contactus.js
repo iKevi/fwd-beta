@@ -2,7 +2,7 @@ import Head from "next/head";
 //import Image from "next/image";
 import {  SimpleGrid,Box } from '@chakra-ui/react'
 import ContactForm from "../components/ContactForm";
-import Threedmedia from "../components/threedmedia";
+import Threedmedia from "../components/Threedmedia";
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
 import  "../styles/Home.module.css";
