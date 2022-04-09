@@ -6,7 +6,7 @@ import Threedmedia from "../components/Threedmedia";
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
 import  "../styles/Home.module.css";
-import styles from "../styles/Home.module.css";
+
 
 
 export default function ContactUs() {
@@ -41,10 +41,12 @@ export default function ContactUs() {
       >
 
       </Box>
-
       <Section delay={0.5}>
-        <SimpleGrid columns={[1, 2, 2]} gap={6}>
-          <GridItem>       
+      <SimpleGrid columns={[1, 2, 2]} gap={6}>
+      <GridItem>  
+      <Section delay={0.5}>
+        
+               
             <Box
                 borderRadius="md"
                 mb={6}
@@ -55,11 +57,22 @@ export default function ContactUs() {
        </Box>
       <ContactForm/>
       
+   
+    
+      </Section>
       </GridItem>
+
+      <GridItem>
+      <Section delay={0.5}>
+     
+      
+      <Threedmedia/>
+      
         
-      <GridItem><Threedmedia/></GridItem>
-        
-        </SimpleGrid>
+    
+      </Section>
+      </GridItem>
+      </SimpleGrid>
       </Section>
 
      
