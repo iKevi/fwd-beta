@@ -41,7 +41,7 @@ export default function ContactUs() {
       >
 
       </Box>
-      <Section delay={0.5}>
+     
       <SimpleGrid columns={[1, 2, 2]} gap={6}>
       <GridItem>  
       <Section delay={0.5}>
@@ -73,7 +73,7 @@ export default function ContactUs() {
       </Section>
       </GridItem>
       </SimpleGrid>
-      </Section>
+     
 
      
       </main>
