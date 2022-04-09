@@ -2,7 +2,7 @@ import Head from "next/head";
 //import Image from "next/image";
 import {  SimpleGrid,Box } from '@chakra-ui/react'
 import ContactForm from "../components/ContactForm";
-import Threedmedia from "../components/Threedmedia";
+
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
 import  "../styles/Home.module.css";
@@ -41,12 +41,10 @@ export default function ContactUs() {
       >
 
       </Box>
-     
-      <SimpleGrid columns={[1, 2, 2]} gap={6}>
-      <GridItem>  
+
       <Section delay={0.5}>
-        
-               
+        <SimpleGrid columns={[1, 2, 2]} gap={6}>
+          <GridItem>       
             <Box
                 borderRadius="md"
                 mb={6}
@@ -57,23 +55,12 @@ export default function ContactUs() {
        </Box>
       <ContactForm/>
       
-   
-    
-      </Section>
       </GridItem>
-
-      <GridItem>
-      <Section delay={0.5}>
-     
-      
-      <Threedmedia/>
-      
         
-    
+      <GridItem></GridItem>
+        
+        </SimpleGrid>
       </Section>
-      </GridItem>
-      </SimpleGrid>
-     
 
      
       </main>
